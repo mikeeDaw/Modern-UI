@@ -1,4 +1,4 @@
-const MenuSvg = ({ openNavigation }) => {
+const MenuSvg = ({ openNav }) => {
   return (
     <svg
       className="overflow-visible"
@@ -8,21 +8,21 @@ const MenuSvg = ({ openNavigation }) => {
     >
       <rect
         className="transition-all origin-center"
-        y={openNavigation ? "5" : "0"}
+        y={openNav ? "5" : "0"}
         width="20"
         height="2"
         rx="1"
         fill="white"
-        transform={`rotate(${openNavigation ? "45" : "0"})`}
+        transform={`rotate(${openNav ? "45" : "0"})`}
       />
       <rect
         className="transition-all origin-center"
-        y={openNavigation ? "5" : "10"}
+        y={openNav ? "5" : "10"}
         width="20"
         height="2"
         rx="1"
         fill="white"
-        transform={`rotate(${openNavigation ? "-45" : "0"})`}
+        transform={`rotate(${openNav ? "-45" : "0"})`}
       />
     </svg>
   );
