@@ -68,10 +68,17 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.8rem]" />
               {
                 // Robot Img Container
+                // The 'aspect ratio' can be applied anywhere. Not just images.
+                //     - modifies the element's width and height based on screen size.
               }
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 {
                   // The Robot image
+                  // The width, height of <img /> and the width styling:
+                  //    • width and height on the <img> tag define the intrinsic dimensions.
+                  //      They act as the default dimensions before any CSS styling is applied.
+                  //    • When styling (using width:100%), ur overriding the intrinsic dimensions.
+                  //      if the container is smaller than the default, it will still scale down.
                 }
                 <img
                   src={robot}
