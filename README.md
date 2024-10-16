@@ -38,3 +38,6 @@
 
 - Pricing Section - `Pricing.jsx`
 - Tailwind Variant selector - `PricingList.jsx`
+
+- Roadmap Section - `Roadmap.jsx`
+- Bento Box \(unevenly spaced\) - `Roadmap.jsx`

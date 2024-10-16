@@ -19,7 +19,7 @@ const Hero = () => {
       crosses
       crossesOffset={"lg:translate-y-[5.25rem]"}
       customPadding
-      id={"Hero"}
+      id={"hero"}
     >
       {
         // Bind the parallax ref here

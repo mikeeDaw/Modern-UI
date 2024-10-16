@@ -3,8 +3,10 @@ import Button from "./components/Button";
 import Header from "./components/Header";
 import Benefits from "./components/sections/Benefits";
 import Collabs from "./components/sections/Collabs";
+import Footer from "./components/sections/Footer";
 import Hero from "./components/sections/Hero";
 import Pricing from "./components/sections/Pricing";
+import Roadmap from "./components/sections/Roadmap";
 import Services from "./components/sections/Services";
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
         <Collabs />
         <Services />
         <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
       {
         // These are just svg gradient definitions to be consumed by others!
