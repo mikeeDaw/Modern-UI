@@ -125,7 +125,7 @@ const Hero = () => {
             </div>
           </div>
           {
-            // The 2 rounded rectangles below the img container
+            // <Gradient /> on the `design/Hero` is the 2 rounded rectangles below the container.
           }
           <Gradient />
 

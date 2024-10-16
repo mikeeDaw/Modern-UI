@@ -37,7 +37,7 @@ const Section = ({
               } pointer-events-auto lg:block xl:inset-x-10`}
             />
             {
-              // The cross svg
+              // The 2 crosses svg
             }
             <SectionSvg crossesOffset={crossesOffset} />
           </>

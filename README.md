@@ -20,12 +20,21 @@
 - Navigation - `Header.jsx`
 - `design` folder - `design/*.jsx`
 - Section Component - `Section.jsx`
+
 - Hero Section - `Hero.jsx`
 - "Aspect Ratio" css style/styling - `Hero.jsx`
 - The width/height props of `<img/>` and the width/height css styling - `Hero.jsx`
 - Parallax effect on Elements - `Hero.jsx`
+
 - Benefits section - `Benefits.jsx`
 - The Benefits Card Background/Border - `assets/benefits/card-1.svg`
 - ClipPath and clipping images - `Benefits.jsx` and `assets/svg/ClipPath.jsx`
+
 - Collabs Section - `Collabs.jsx`
 - The Circular arrangement of Icons - `Collabs.jsx`
+
+- Services Section - `Services.jsx`
+- Bento Box \(evenly spaced\) - `Services.jsx`
+
+- Pricing Section - `Pricing.jsx`
+- Tailwind Variant selector - `PricingList.jsx`
